@@ -17,7 +17,7 @@
     align-self: center;
 }
 .grid-photo:hover {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
 }
 .text-container {
     display: flex;
@@ -74,7 +74,7 @@
 .cost {
     font-weight: bold;
 }
-@media all and (max-width: 500px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2){
+@media all and (max-width: 500px) {
     .grid-photo {
         width: 250px;
     }
