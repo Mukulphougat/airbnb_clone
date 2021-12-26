@@ -74,7 +74,7 @@
 .cost {
     font-weight: bold;
 }
-@media all and (max-width: 500px){
+@media all and (max-width: 500px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2){
     .grid-photo {
         width: 250px;
     }
