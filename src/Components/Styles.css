@@ -16,9 +16,9 @@
     max-width: 400px;
     align-self: center;
 }
-.grid-photo:hover {
+/*.grid-photo:hover {
     -webkit-transform: scale(1.2);
-}
+}*/
 .text-container {
     display: flex;
     flex-direction: column;
